@@ -24,7 +24,7 @@ public final class Constants {
     public static final int rightMotorFollow = 2;
     public static final int launcherMotor = 4;
         // Tune this between 0.0 and 1.0 — start around 0.95 and adjust
-    public static final double kLeftTrim = 0.95;
+    public static final double kLeftTrim = 0.7;
     public static final double kRightTrim = 1.00;
   }
 }
