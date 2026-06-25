@@ -17,11 +17,15 @@ package frc.robot;
 public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;  // port for the controller
-    public static final int intakeMotor = 4;
-    public static final int leftMotorLead = 5;
-    public static final int leftMotorFollow = 3;
+    public static final int intakeMotor = 6;
+    public static final int leftMotorLead = 3;
+    public static final int leftMotorFollow = 5;
     public static final int rightMotorLead = 1;
     public static final int rightMotorFollow = 2;
-    public static final int launcherMotor = 6;
+    public static final int launcherMotor = 4;
+        // Tune this between 0.0 and 1.0 — start around 0.95 and adjust
+    public static final double kLeftTrim = 0.95;
+    public static final double kRightTrim = 1.00;
   }
 }
+
